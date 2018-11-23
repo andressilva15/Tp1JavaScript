@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Edad de jubilación</title>
+    <script type="text/javascript">
+/*Ídem ejercicio anterior, verificando el sexo, siendo que la edad de Jubilación para el Hombre
+es de 65 años y la Mujer a los 60 años.*/
+      var edad;
+      var sexo;
+      edad= prompt("Ingrese su edad", "");
+      edad= parseInt (edad);
+      sexo= prompt("Ingrese su sexo (F o M)", "");
+
+
+        if (sexo === 'M' && edad > 64) {
+          alert('Usted esta jubilado');
+        } else if (sexo ==='F'&& edad > 59) {
+          alert('Usted esta jubilada');
+        } else {
+          alert('No esta jubilado ');
+        }
+
+
+    /*  if (edad < 60) {
+          alert (" no esta jubilades");
+          else if (sexo==='F') {
+              alert (" esta jubilada");
+            /*  else if(edad>=65) {
+                  alert (" esta jubilado");
+                }
+              }*/
+
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Area de un triangulo</title>
+  </head>
+  <script type="text/javascript">
+  /*Realice una función, que me permita calcular el área de un triangulo.*/
+  function Area()
+        {
+     var area, base, altura;
+            base = prompt("Ingresa la base");
+            altura = prompt("Ingresa la altura");
+
+            base = parseInt(base);
+            altura = parseInt(altura);
+            area = (base * altura)/2;
+
+            alert("El area del cuadrado es:" +area);
+        }
+    </script>
+
+  <body>
+    <input type="button" value="calcular" onclick=Area()>
+  </body>
+</html>
